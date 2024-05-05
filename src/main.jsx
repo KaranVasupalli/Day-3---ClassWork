@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
       <Route exact path='/' element={<Home />}/>
-      <Route path='/quote' element={<Quote />} />
+      <Route path='./quote' element={<Quote />} />
     </Routes>
   
   </BrowserRouter>
