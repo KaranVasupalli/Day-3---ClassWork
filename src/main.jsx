@@ -1,14 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css'
-import Navbar from './Navbar'
-import Body from './Body'
-import Footer from './Footer'
+import Quote from './components/Quote'
+import Home from './components/home';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Navbar />
-    <Body />
-    <Footer />
-  </React.StrictMode>,
+ 
+  <BrowserRouter>
+    <Routes>
+      <Route exact path='/' element={<Home />}/>
+      <Route path='/quote' element={<Quote />} />
+    </Routes>
+  
+  </BrowserRouter>
+    
 )

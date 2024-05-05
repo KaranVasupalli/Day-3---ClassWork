@@ -10,8 +10,8 @@ function Navbar(){
                 </div>
                 <div className='nav2'>
                     <li className=" flex gap-7">
-                        <a href="">Home</a>
-                        <a href="">Quote</a>
+                        <a href="/">Home</a>
+                        <a href="/quote">Quote</a>
                         <a href="">Restaurant</a>
                         <a href="">Foods</a>
                         <a href="">Contact</a>

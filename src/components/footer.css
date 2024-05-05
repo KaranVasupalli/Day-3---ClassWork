@@ -1,30 +1,30 @@
 .img{
-    background-image: url(./assets/logo.svg);
+    background-image: url(../assets/logo.svg);
     width: 20%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .img1{
-    background-image: url(./assets/facebook.svg);
+    background-image: url('../assets/facebook.svg');
     height: 2rem;
     background-repeat: no-repeat;
 }
 
 .img2{
-    background-image: url(./assets/insta.svg);
+    background-image: url(../assets/insta.svg);
     height: 2rem;
     background-repeat: no-repeat;
 }
 
 .img3{
-    background-image: url(./assets/github.svg);
+    background-image: url(../assets/github.svg);
     height: 2rem;
     background-repeat: no-repeat;
 }
 
 .img4{
-    background-image: url(./assets/twitter.svg);
+    background-image: url(../assets/twitter.svg);
     height: 2rem;
     background-repeat: no-repeat;
 }
